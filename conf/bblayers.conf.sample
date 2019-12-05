@@ -1,0 +1,18 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/adrian/raspberry_pi/poky-warrior/meta \
+  /home/adrian/raspberry_pi/poky-warrior/meta-poky \
+  /home/adrian/raspberry_pi/poky-warrior/meta-yocto-bsp \
+  /home/adrian/raspberry_pi/poky-warrior/meta-openembedded/meta-oe \
+  /home/adrian/raspberry_pi/poky-warrior/meta-openembedded/meta-multimedia \
+  /home/adrian/raspberry_pi/poky-warrior/meta-openembedded/meta-networking \
+  /home/adrian/raspberry_pi/poky-warrior/meta-openembedded/meta-python \
+  /home/adrian/raspberry_pi/poky-warrior/meta-raspberrypi \
+  /home/adrian/raspberry_pi/poky-warrior/meta-qt5 \
+  "
