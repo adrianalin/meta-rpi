@@ -45,11 +45,11 @@ DISABLE_OVERSCAN = "1"
 
 ENABLE_UART = "1"
 
+
 # for a root passwd, change jumpnowtek below to your password
 INHERIT += "extrausers"
 EXTRA_USERS_PARAMS = "usermod -P root root; "
 
-#PREFERRED_VERSION_linux-raspberrypi = "4.19.%"
 #
 # Where to place downloads
 #

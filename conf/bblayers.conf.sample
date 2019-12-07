@@ -15,4 +15,5 @@ BBLAYERS ?= " \
   /home/adrian/raspberry_pi/poky-warrior/meta-openembedded/meta-python \
   /home/adrian/raspberry_pi/poky-warrior/meta-raspberrypi \
   /home/adrian/raspberry_pi/poky-warrior/meta-qt5 \
-  "
+  /home/adrian/raspberry_pi/rpi3aplus/meta-rpi \
+"
