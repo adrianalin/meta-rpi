@@ -9,7 +9,7 @@ CORE_OS = " \
 "
 
 WIFI_SUPPORT = " \
-    crda \
+    packagegroup-base \
     iw \
     linux-firmware-bcm43430\
     wpa-supplicant \

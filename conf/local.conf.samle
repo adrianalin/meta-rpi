@@ -24,6 +24,7 @@
 #MACHINE ?= "qemuppc"
 #MACHINE ?= "qemux86"
 #MACHINE ?= "qemux86-64"
+MACHINE = "raspberrypi3"
 #
 # There are also the following hardware board target machines included for 
 # demonstration purposes:
@@ -35,9 +36,8 @@
 #MACHINE ?= "edgerouter"
 #
 # This sets the default machine to be qemux86 if no other machine is selected:
-MACHINE = "raspberrypi3"
 
-DISTRO_FEATURES = "opengl usbhost ${DISTRO_FEATURES_LIBC}"
+DISTRO_FEATURES_append = " wifi opengl usbhost ${DISTRO_FEATURES_LIBC}"
 
 MCHINE_FEATURES_remove = "apm"
 
