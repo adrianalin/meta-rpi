@@ -37,9 +37,9 @@ MACHINE = "raspberrypi3"
 #
 # This sets the default machine to be qemux86 if no other machine is selected:
 
-DISTRO_FEATURES_append = " wifi opengl usbhost ${DISTRO_FEATURES_LIBC}"
-
-MCHINE_FEATURES_remove = "apm"
+DISTRO_FEATURES_append = " wifi  usbhost ${DISTRO_FEATURES_LIBC}"
+DISTRO_FEATURES_remove = "x11"
+MACHINE_FEATURES_remove = "apm vc4graphics"
 
 DISABLE_OVERSCAN = "1"
 
@@ -47,8 +47,8 @@ ENABLE_UART = "1"
 
 
 # for a root passwd, change jumpnowtek below to your password
-INHERIT += "extrausers"
-EXTRA_USERS_PARAMS = "usermod -P root root; "
+#INHERIT += "extrausers"
+#EXTRA_USERS_PARAMS = "usermod -P root root; "
 
 #
 # Where to place downloads

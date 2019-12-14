@@ -5,7 +5,7 @@ include recipes-core/images/core-image-base.bb
 IMAGE_FEATURES += "package-management splash"
 
 CORE_OS = " \
-    openssh openssh-keygen openssh-sftp-server \
+    libinput-dev openssh openssh-keygen openssh-sftp-server \
 "
 
 WIFI_SUPPORT = " \

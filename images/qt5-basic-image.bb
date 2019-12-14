@@ -38,6 +38,7 @@ IMAGE_INSTALL += " \
     ${FONTS} \
     ${QT_DEV_TOOLS} \
     ${QT_TOOLS} \
+    qtvirtualkeyboard \
 "
 
 export IMAGE_BASENAME = "qt5-basic-image"
