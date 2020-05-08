@@ -8,6 +8,7 @@ PYTHON_TOOLS += " \
 
 QT_TOOLS += " \
     python3-pyqt5 \
+	qt5-env \
 "
 
 export IMAGE_BASENAME = "python3-qt5-image"
