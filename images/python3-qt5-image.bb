@@ -13,6 +13,7 @@ PYTHON_TOOLS += " \
 
 QT_TOOLS += " \
     python3-pyqt5 \
+	raspi2fb \
 	qt5-env \
 "
 
