@@ -34,10 +34,18 @@ FONTS = " \
     ttf-bitstream-vera \
 "
 
+PYTHON_TOOLS = " \
+"
+
+TSLIB = " \
+"
+
 IMAGE_INSTALL += " \
     ${FONTS} \
     ${QT_DEV_TOOLS} \
     ${QT_TOOLS} \
+    ${PYTHON_TOOLS} \
+    ${TSLIB} \
     qtvirtualkeyboard \
 "
 

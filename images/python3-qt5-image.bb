@@ -2,7 +2,12 @@ SUMMARY = "A PyQt5 development image"
 
 require qt5-basic-image.bb
 
+TSLIB = " \
+    tslib \
+"
+
 PYTHON_TOOLS += " \
+	python3-paho-mqtt \
 	python-mpd2 \
 "
 
